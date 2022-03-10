@@ -14,7 +14,6 @@ import {
 } from "@mui/material";
 
 import React, { useState } from "react";
-import { FileUploader } from "react-drag-drop-files";
 
 const addChallenges = () => {
   return (
@@ -23,7 +22,7 @@ const addChallenges = () => {
         <title>Add Challenges</title>
       </Head>
       <Navbar />
-      <div className="flex flex-col items-center  text-xl mt-11">
+      <div className="flex flex-col items-center w-11/12 mx-auto  text-xl mt-11 mb-10">
         <div className="space-y-4 ">
           <div className="flex flex-col items-start font-semibold mt-6">
             Add a New Weekly Challenge
@@ -112,16 +111,10 @@ const addChallenges = () => {
           </FormControl>
           <div className="text-xl">Add Challenge Cover Image</div>
           <Drop />
-         
-          <button >
-              <div className="py-3 px-2 font-bold  text-green-800  bg-green-200 text-sm rounded-md hover:bg-green-400 hover:shadow-xl">Publish</div>
-            </button>
-        
+          <button className="py-3 px-2 font-bold  text-green-800  bg-green-200 text-sm rounded-md hover:bg-green-400 hover:shadow-xl ">
+            Publish
+          </button>
         </div>
-        
-        
-
-        
       </div>
     </>
   );
