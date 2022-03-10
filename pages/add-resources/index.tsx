@@ -1,7 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
-import { DropzoneArea } from "material-ui-dropzone";
-import { Component } from "react";
 import Navbar from "../components/Navbar/Navbar";
 import Drop from "../add-challenges/Dropzone";
 
@@ -10,11 +7,8 @@ import {
   TextField,
   FormControl,
   InputLabel,
-  Button,
 } from "@mui/material";
-
 import React, { useState } from "react";
-import { FileUploader } from "react-drag-drop-files";
 
 const addChallenges = () => {
   return (
@@ -23,7 +17,7 @@ const addChallenges = () => {
         <title>Add Resources</title>
       </Head>
       <Navbar />
-      <div className="flex flex-col items-center  text-xl mt-11">
+      <div className="flex flex-col items-center  text-xl mt-11 w-11/12 mx-auto mb-10">
         <div className="space-y-4 ">
           <div className="flex flex-col items-start font-semibold mt-6">
              Add new Resources

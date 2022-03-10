@@ -21,7 +21,7 @@ const addChallenges = () => {
         <title>Edit Resources</title>
       </Head>
       <Navbar />
-      <div className="flex flex-col items-center  text-xl mt-11">
+      <div className="flex flex-col items-center  text-xl mt-11 w-11/12 mx-auto mb-10">
         <div className="space-y-4 ">
           <div className="flex flex-col items-start font-semibold mt-6">
             Edit new Resources
